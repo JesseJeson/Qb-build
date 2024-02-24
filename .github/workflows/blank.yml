@@ -31,7 +31,7 @@ jobs:
           usesh: true
           release: 13.2
           prepare: |
-            pkg -y install pkgconf qt5-core qt5-network qt5-svg qt5-linguisttools qt5-buildtools qt5-qmake boost-all libtorrent-rasterbar
+            pkg install -y pkgconf qt5-core qt5-network qt5-svg qt5-linguisttools qt5-buildtools qt5-qmake boost-all libtorrent-rasterbar
           run: |
             git clone https://github.com/qbittorrent/qBittorrent
             cd qBittorrent
